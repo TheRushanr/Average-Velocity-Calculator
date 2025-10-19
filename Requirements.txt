@@ -1,0 +1,29 @@
+# ===============================================================
+# Project: Average Velocity Calculator
+# Author: Rushan (RSHAN)
+# Description: A Python desktop app to calculate Average Velocity
+#              and Air Flow (CMH) for HVAC grille systems.
+# ===============================================================
+
+# 🖥️ System Information
+# Tested On: Windows 11 Pro (64-bit)
+# PC Model: Lenovo Thinkpad P53
+# Processor: Intel Core i7-9850H
+# Python Version: 3.11.5
+# ===============================================================
+
+# 📦 Core Dependencies
+tkinter
+openpyxl==3.1.5
+pyinstaller==6.4.0
+
+# ===============================================================
+# 🧰 Installation Command:
+# pip install -r requirements.txt
+#
+# 🧱 Build Executable:
+# pyinstaller --onefile --noconsole velocity_calculator.py
+#
+# 📤 Output:
+# dist/velocity_calculator.exe
+# ===============================================================
